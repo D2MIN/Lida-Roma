@@ -2,6 +2,7 @@ body{
     display: flex;
     justify-content: center;
     font-size: 30px;
+    bacground-color: green;
 }
 
 .body{
