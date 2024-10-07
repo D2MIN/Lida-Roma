@@ -1,0 +1,30 @@
+// Склады которые у нас есть
+Warehouse = {
+ 1 : {
+  name : string,
+  id_warehouse : number,
+  products : {
+   1 : { id_product : string, count : number},
+   ...
+  } 
+ },
+ ...
+}
+
+// Продукты которые хранятся на складах
+Products = {
+ 1 : {id_product : string, name: string, weight : number},
+ ...
+}
+
+// Расстояния между скадами
+Distances = {
+ // distance - в килоетрах
+ // time - в минутах
+ 1 : {
+  from : id_warehouse,
+  to : id_werehouse,
+  distance : number,
+  time : number
+ },
+}
